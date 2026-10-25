@@ -1,0 +1,40 @@
+{"question": "How do I make lookups on a column faster in Postgres?", "relevant": ["pg-indexes"]}
+{"question": "Why did my table get bloated and slow?", "relevant": ["pg-vacuum"]}
+{"question": "Which tool multiplexes many clients over few database connections?", "relevant": ["pg-pool"]}
+{"question": "Why does transaction pooling break prepared statements?", "relevant": ["pg-pool"]}
+{"question": "How can I review automatically generated schema changes?", "relevant": ["pg-migrate"]}
+{"question": "Can I edit an Alembic revision that is already deployed?", "relevant": ["pg-migrate"]}
+{"question": "How do I replace a dependency when testing a FastAPI app?", "relevant": ["fa-deps"]}
+{"question": "What runs cleanup code after the response in FastAPI?", "relevant": ["fa-deps"]}
+{"question": "Why does calling requests inside an async endpoint freeze the server?", "relevant": ["fa-async"]}
+{"question": "How are plain def endpoints executed in FastAPI?", "relevant": ["fa-async"]}
+{"question": "What happens when the request body is invalid?", "relevant": ["fa-validate"]}
+{"question": "How do I avoid returning a password hash from an endpoint?", "relevant": ["fa-validate"]}
+{"question": "How do I retry a failing background task with backoff?", "relevant": ["celery-retry"]}
+{"question": "Why must background tasks be idempotent?", "relevant": ["celery-retry"]}
+{"question": "How can a crashed worker avoid losing a queued task?", "relevant": ["celery-broker"]}
+{"question": "Which message broker keeps durable queues?", "relevant": ["celery-broker"]}
+{"question": "How do I cache query results and expire them?", "relevant": ["redis-cache"]}
+{"question": "What is a cache stampede?", "relevant": ["redis-cache"]}
+{"question": "How do I stop code edits from invalidating the package install step in an image?", "relevant": ["docker-layers"]}
+{"question": "How do I shrink the final container image?", "relevant": ["docker-layers"]}
+{"question": "How can one service wait for the database to be ready?", "relevant": ["docker-compose"]}
+{"question": "How do I keep database files after removing a container?", "relevant": ["docker-compose"]}
+{"question": "Where are the stages of a pipeline defined?", "relevant": ["ci-gitlab"]}
+{"question": "Where are deployment secrets kept in the pipeline?", "relevant": ["ci-gitlab"]}
+{"question": "When should I avoid rebasing?", "relevant": ["git-flow"]}
+{"question": "Which branch is stabilised before a tagged release?", "relevant": ["git-flow"]}
+{"question": "Why are very large chunks a problem?", "relevant": ["rag-chunk"]}
+{"question": "How do I keep meaning intact across chunk edges?", "relevant": ["rag-chunk"]}
+{"question": "How do I find exact error codes as well as similar meaning?", "relevant": ["rag-hybrid"]}
+{"question": "Why does rank fusion not need score normalisation?", "relevant": ["rag-hybrid"]}
+{"question": "What does recall at k measure?", "relevant": ["rag-eval"]}
+{"question": "Why evaluate retrieval separately from the generated answer?", "relevant": ["rag-eval"]}
+{"question": "How do I make a model admit it does not know?", "relevant": ["llm-halluc"]}
+{"question": "Does temperature zero guarantee correct answers?", "relevant": ["llm-halluc"]}
+{"question": "How must deleted personal data be handled in vector stores?", "relevant": ["gdpr-erasure"]}
+{"question": "How quickly must a deletion request be answered?", "relevant": ["gdpr-erasure"]}
+{"question": "Why can a signed token not be revoked early?", "relevant": ["auth-jwt"]}
+{"question": "Is the payload of a token encrypted?", "relevant": ["auth-jwt"]}
+{"question": "How do I see whether the planner used an index?", "relevant": ["pg-indexes"]}
+{"question": "What does autovacuum do besides removing dead rows?", "relevant": ["pg-vacuum"]}
